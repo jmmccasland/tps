@@ -10,4 +10,15 @@ $c-accent: #e4e8f0;
 @import 'resets'; // For reseting troublesome defaults and setting some base styles
 @import 'layout'; // Basic layout styles
 @import 'components/list'; // Styles for lists
-@import 'components/components'; // Styles for lists
+@import 'components/components'; // Styles for small lil thangs
+
+.wrapper {
+  padding: 116px 0;
+}
+
+body {
+  // display: none;
+  transition: background-color 2s, opacity 2s;
+  background-color: $c-brand-primary;
+  opacity: 0;
+}
