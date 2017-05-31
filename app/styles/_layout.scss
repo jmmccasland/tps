@@ -1,12 +1,17 @@
 // Layout
 .section {
-  padding: 5rem;
+ // padding: 1rem;
 }
 
 .container {
   max-width: 75rem;
   margin: 0 auto;
-  border-bottom: 1px solid $c-accent;
+  padding: 60px 0;
+  border-bottom: 1.5px solid $c-accent;
+
+  &--header {
+    padding-top: 116px;
+  }
 }
 
 .content {
@@ -14,18 +19,26 @@
   align-items: flex-start;
 
   &__left {
-    flex-basis: 45%;
+    flex-basis: 50%;
   }
 
   &__right {
-    flex-basis: 55%;
+    flex-basis: 50%;
 
     > * {
       letter-spacing: 0;
       line-height: 24px;
     }
+
+    > * + *  {
+      margin-top: 1.6rem;
+    }
   }
 }
+
+// Specific Layout Styles
+
+
 
 .logo {
   display: flex;

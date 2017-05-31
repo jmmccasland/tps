@@ -1,4 +1,4 @@
-$c-brand-primary: #083575;
+$c-brand-primary: #073575;
 $c-brand-secondary: #f1f3f7;
 $c-accent: #e4e8f0;
 
@@ -9,3 +9,4 @@ $c-accent: #e4e8f0;
 @import 'box-sizing';
 @import 'resets'; // For reseting troublesome defaults and setting some base styles
 @import 'layout'; // Basic layout styles
+@import 'components/list'; // Styles for lists
