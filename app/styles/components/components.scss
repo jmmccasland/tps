@@ -1,0 +1,13 @@
+// Specific component layout Styles
+.logo {
+  display: flex;
+  align-items: center;
+
+  > h1 {
+    margin-left: 0.5rem;
+  }
+}
+
+.address {
+  margin-bottom: 1.25rem;
+}

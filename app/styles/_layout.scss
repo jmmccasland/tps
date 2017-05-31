@@ -1,8 +1,4 @@
 // Layout
-.section {
- // padding: 1rem;
-}
-
 .container {
   max-width: 75rem;
   margin: 0 auto;
@@ -10,7 +6,12 @@
   border-bottom: 1.5px solid $c-accent;
 
   &--header {
-    padding-top: 116px;
+    padding-top: 0;
+  }
+
+  &--contact {
+    padding-bottom: 0;
+    border-bottom: none;
   }
 }
 
@@ -27,24 +28,11 @@
 
     > * {
       letter-spacing: 0;
-      line-height: 24px;
+      line-height: 22px;
     }
 
     > * + *  {
       margin-top: 1.6rem;
     }
-  }
-}
-
-// Specific Layout Styles
-
-
-
-.logo {
-  display: flex;
-  align-items: center;
-
-  > h1 {
-    margin-left: 0.5rem;
   }
 }

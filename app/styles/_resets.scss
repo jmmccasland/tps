@@ -6,6 +6,7 @@
 }
 
 body {
+  padding: 116px 0;
   background: $c-brand-secondary;
   color: $c-brand-primary;
 }
@@ -34,4 +35,5 @@ ul {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
