@@ -1,0 +1,37 @@
+// Layout
+.section {
+  padding: 5rem;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  border-bottom: 1px solid $c-accent;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+
+  &__left {
+    flex-basis: 45%;
+  }
+
+  &__right {
+    flex-basis: 55%;
+
+    > * {
+      letter-spacing: 0;
+      line-height: 24px;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  > h1 {
+    margin-left: 0.5rem;
+  }
+}

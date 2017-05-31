@@ -1,0 +1,36 @@
+// Resets
+* {
+  font-family: 'Cousine', monospace;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+body {
+  background: $c-brand-secondary;
+  color: $c-brand-primary;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 1rem;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
