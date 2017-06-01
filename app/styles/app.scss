@@ -13,12 +13,34 @@ $c-accent: #e4e8f0;
 @import 'components/components'; // Styles for small lil thangs
 
 .wrapper {
-  padding: 116px 0;
+  padding: 116px 1.25rem;
 }
 
-body {
-  // display: none;
-  transition: background-color 2s, opacity 2s;
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 2s;
   background-color: $c-brand-primary;
-  opacity: 0;
+}
+
+@media (max-width: 650px) {
+
+  .wrapper { // resets large margins
+    padding-top: 1.25rem;
+  }
+
+  .logo {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+
+  .content {
+    flex-direction: column;
+
+    > * + * {
+      margin-top: 1rem;
+    }
+  }
+
 }

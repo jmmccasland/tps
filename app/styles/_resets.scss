@@ -1,11 +1,12 @@
 // Resets
 * {
   font-family: 'Cousine', monospace;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 body {
+  margin: 0;
   background: $c-brand-secondary;
   color: $c-brand-primary;
 }
@@ -24,7 +25,7 @@ p,
 ul,
 ol {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
 }
 
 ul {
