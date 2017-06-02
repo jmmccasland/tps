@@ -13,22 +13,20 @@ $c-accent: #e4e8f0;
 @import 'components/components'; // Styles for small lil thangs
 
 .wrapper {
-  padding: 116px 1.25rem;
+  padding: 116px;
 }
 
 .loading {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  // transition: background-color 2s;
   background-color: $c-brand-primary;
 }
 
 
 @media (max-width: 1000px) {
   .wrapper {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding: 1.25rem 60px 116px;
   }
 }
 
@@ -36,7 +34,7 @@ $c-accent: #e4e8f0;
 @media (max-width: 650px) {
 
   .wrapper { // resets large margins
-    padding-top: 1.25rem;
+    // padding-top: 1.25rem;
   }
 
   .logo {
