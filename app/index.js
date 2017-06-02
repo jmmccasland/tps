@@ -4,6 +4,6 @@ import $ from 'jQuery';
 $(document).ready(() => {
   setTimeout(() => {
     $('.loading')
-    .fadeOut();
+    .fadeOut(800);
   }, 1000);
 });
