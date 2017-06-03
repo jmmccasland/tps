@@ -12,10 +12,6 @@ $c-accent: #e4e8f0;
 @import 'components/list'; // Styles for lists
 @import 'components/components'; // Styles for small lil thangs
 
-.wrapper {
-  padding: 116px;
-}
-
 .loading {
   position: fixed;
   width: 100vw;
@@ -26,7 +22,7 @@ $c-accent: #e4e8f0;
 
 @media (max-width: 1000px) {
   .wrapper {
-    padding: 1.25rem 60px 116px;
+    padding: 60px;
   }
 }
 
@@ -34,7 +30,7 @@ $c-accent: #e4e8f0;
 @media (max-width: 650px) {
 
   .wrapper { // resets large margins
-    // padding-top: 1.25rem;
+    padding: 1rem;
   }
 
   .logo {
@@ -53,5 +49,4 @@ $c-accent: #e4e8f0;
       margin-top: 1rem;
     }
   }
-
 }
