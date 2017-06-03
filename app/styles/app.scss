@@ -45,6 +45,10 @@ $c-accent: #e4e8f0;
   .content {
     flex-direction: column;
 
+    > * {
+      flex-basis: initial;
+    }
+
     > * + * {
       margin-top: 1rem;
     }
