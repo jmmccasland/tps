@@ -1,0 +1,42 @@
+// Layout
+.wrapper {
+  padding: 116px;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 60px 0;
+  border-bottom: 1px solid $c-accent;
+
+  &--header {
+    padding-top: 0;
+  }
+
+  &--contact {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+
+  &__left {
+    flex-basis: 50%;
+  }
+
+  &__right {
+    flex-basis: 50%;
+
+    > * {
+      letter-spacing: 0;
+      line-height: 22px;
+    }
+
+    > * + *  {
+      margin-top: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Specific component layout Styles
+.logo {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  // overflow: auto;
+
+  > h1 {
+    margin-left: 0.5rem;
+  }
+}
+
+.address {
+  margin-bottom: 1.25rem;
+}
